@@ -119,6 +119,7 @@ const handleRenderSaveBtn = () => {
 // Render the list of note titles
 const renderNoteList = async (notes) => {
   let jsonNotes = await notes.json();
+  console.log(jsonNotes);
   if (window.location.pathname === "/notes") {
     noteList.forEach((el) => (el.innerHTML = ""));
   }
@@ -153,7 +154,7 @@ const renderNoteList = async (notes) => {
 
     return liEl;
   };
-
+  console.log(jsonNotes.length);
   if (jsonNotes.length === 0) {
     noteListItems.push(createLi("No saved Notes", false));
   }
@@ -161,8 +162,10 @@ const renderNoteList = async (notes) => {
   jsonNotes.forEach((note) => {
     const li = createLi(note.title);
     li.dataset.note = JSON.stringify(note);
-
+    console.log(noteListItems);
+    console.log(li);
     noteListItems.push(li);
+    console.log(noteListItems);
   });
 
   if (window.location.pathname === "/notes") {

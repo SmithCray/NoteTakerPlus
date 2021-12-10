@@ -3,7 +3,7 @@ const htmlRoutes = require("./routes/htmlRoutes");
 const apiRoutes = require("./routes/apiRoutes");
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 //middleware -- get data from front end of req.body
 app.use(express.json());

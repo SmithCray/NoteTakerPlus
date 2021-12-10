@@ -26,7 +26,7 @@ const hide = (elem) => {
 let activeNote = {};
 
 const getNotes = () =>
-  fetch("/api/notes.html", {
+  fetch("/api/notes", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -34,7 +34,7 @@ const getNotes = () =>
   });
 
 const saveNote = (note) =>
-  fetch("/api/notes.html", {
+  fetch("/api/notes", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -160,10 +160,7 @@ const renderNoteList = async (notes) => {
   jsonNotes.forEach((note) => {
     const li = createLi(note.title);
     li.dataset.note = JSON.stringify(note);
-    console.log(noteListItems);
-    console.log(li);
     noteListItems.push(li);
-    console.log(noteListItems);
   });
 
   if (window.location.pathname === "/notes") {

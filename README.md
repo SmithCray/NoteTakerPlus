@@ -30,9 +30,9 @@ Instal commands via terminal:
 
 ## WebPreview:
 
-![Landingpage](Assets\homework9.PNG)
+![Landingpage](./Assets/homework9.PNG)
 
-![Notespage](Assets\homework9.1.PNG)
+![Notespage](./Assets/homework9.1.PNG)
 
 <br>
 <br>

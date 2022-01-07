@@ -1,29 +1,40 @@
-# **Note Taker Plus**
+# <span style="color:orange"> **Note Taker Plus** </span>
 
 <br>
 
 ## Description:
 
-## [_NoteTakerPlus_](https://hw-notetakerplus.herokuapp.com/notes) is an application designed to let users input personalized notes, information, and then save them to an easy to read list for the user to see. Our application uses an Express.js back end and retrieves note data from a JSON file. Users will be brought to our "landing page" and be able to follow the link attached to a buttton which will direct them to a "notes taking page" with input fields. In the upper right corner users will be able to select new notes and when they input text into the notes fields then a save button will become visible for the user to save their note.
+#
+
+## [_NoteTakerPlus_](https://hw-notetakerplus.herokuapp.com/notes) is an application designed to let users input personalized notes and information, then save them to an easy to read list for the user to see. Our application uses an Express.js back end and retrieves note data from a JSON file. Users will be brought to our "landing page" and be able to follow the link attached to a buttton which will direct them to a "notes taking page" with input fields. In the upper right corner users will be able to select new notes and when they input text into the notes fields then a save button will become visible for the user to save their note.
 
 <br>
 <br>
 
-## Usage and install:
+## Usage and install
 
 #
 
-Deployed on: Heroku
+### <span style="color:green"> **Needed Dependancies;** </span>
 
-Dependencies used:
+- [Express](https://www.npmjs.com/package/express) \_ _"express": v."4.17.1" ,_
 
-- express: v.4.16.4
-- nodemon: v.2.0.15
+### <span style= "color:green"> **Dev Dependencies (optional);** </span>
 
-Instal commands via terminal:
+- [nodemon](https://www.npmjs.com/package/nodemon) \_ _"nodemon": v."2.0.15" ,_
 
-- "**npm i** " node modules instal
-- "**npm i nodemon** " terminal instal
+### <span style= "color:green"> **Installation;** </span>
+
+- **npm i express**
+- **npm i nodemon**
+
+### <span style= "color:yellow"> **Run commands** </span>
+
+- **node server.js**
+
+<span style= "color:blue"> **Or** </span>
+
+- **nodemon server.js**
 
 <br>
 <br>
@@ -37,23 +48,43 @@ Instal commands via terminal:
 <br>
 <br>
 
-## Contact Us:
-
 ## Links:
 
-GitHub Repo:
-<br>
+#
+
+## <span style= "color:green"> **GitHub repo;** </span>
+
 https://github.com/SmithCray/NoteTakerPlus
 
-Heroku Deployed:
-<br>
+## <span style= "color:green"> **Heroku deployed;** </span>
+
 https://hw-notetakerplus.herokuapp.com/
 
-Git Bio- Cray Smith
 <br>
-https://github.com/SmithCray
 
-## Copyright (c) [2021] [Cray Smith]
+## Contact Us:
+
+#
+
+## <span style= "color:orange"> Cray Smith GitHub-Bio </span>
+
+<img src="Assets\p2cray.PNG" alt="Cray Smith- GitHub" width="150px">
+
+### https://github.com/SmithCray
+
+<br>
+
+## Email Us:
+
+### cmsmith004@gmail.com
+
+<br>
+
+<br>
+
+##
+
+## <span style= "color:yellow"> Copyright (c) [2021] [Cray Smith] </span>
 
 #
 
